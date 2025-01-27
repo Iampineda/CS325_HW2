@@ -23,10 +23,6 @@ def kthElement(Arr1, Arr2, k):
     else:
         return kthElement(Arr1, Arr2[j:], k-j)
 
-    
-arr1 = [1,2,3,5,6] 
-arr2 = [3,4,5,6,7]
-k = 5
-print(kthElement(arr1, arr2, k) ) #4
+
 
 
